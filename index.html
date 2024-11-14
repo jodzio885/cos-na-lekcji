@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+</head>
+<body>
+
+    <h1><center>Ciekawostki o twoim słowie</center></h1>
+
+<script>
+    const text = prompt('Podaj słowo');
+    const ilosc = parseInt(prompt('ile razy wypisac twoje slowo?'));
+    let litera = parseInt(prompt('Ktora litere swojego slowa chcesz wypisac? '));
+
+    text.length;
+    
+    let litera2 = (litera -1)
+    document.write('<center>', 'długość twojego słowa: ', text, ' to ', text.length, ' liter', '</center>', '<br>');
+    document.write('<center>', text.repeat(ilosc),'</center>', '<br>');
+    document.write('<center>', litera, ' litera twojego słowa to ', text.charAt(litera2),'</center>', '<br>');
+
+
+
+    
+</script>
+
+
+</body>
+</html>
